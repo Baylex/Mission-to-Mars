@@ -18,7 +18,7 @@ UT McCombs Module 10: Mission to Mars - Web Scraping with HTML/CSS
 * A higher version prevented Flask from running.
 
 # Web Scraping Mars data from NASA using Jupyter Notebook
-BeautifulSoup and Splinter was used to automate a web browser and perform a web scrape.
+BeautifulSoup and Splinter were used to automate a web browser and perform a web scrape.
 
 ## Mars Hemisphere data dictionary
 ![Pic 1](https://github.com/Baylex/Mission-to-Mars/blob/main/Resources/hemi_dict.PNG)
@@ -46,4 +46,4 @@ Changed everything to col-xs, which is the smallest option.  Everything will sca
 ## Two additional Bootstrap 3 components are used to style the webpage
 1. Changed the button color to warning, which is orange to match the header color.
 2. Added a tooltip that says Click Me!, when the user hoovers over the Scrape button.
-Bonus: Changed the colors of various areas, adjusted some heights, and added a striped table pattern.
+3. Bonus: Changed the colors of various areas, adjusted some heights, and added a striped table pattern.
