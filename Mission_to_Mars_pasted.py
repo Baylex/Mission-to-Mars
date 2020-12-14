@@ -1,3 +1,5 @@
+# Code was copy-pasted from Jupyter notebook into VSCode
+
 # Module Code-------------------------------------------------------------------------
 # Import Splinter, BeautifulSoup, and Pandas
 from splinter import Browser
@@ -50,7 +52,7 @@ img_url_rel
 # Use the base URL to create an absolute URL
 img_url = f'https://www.jpl.nasa.gov{img_url_rel}'
 img_url
-## 10.3.5 Scrape Mars Data: Mars Facts
+## 10.3.5 Scrape Mars Data: Mars Facts--------------------------------------------------
 df = pd.read_html('http://space-facts.com/mars/')[0]
 df.columns=['description', 'value']
 df.set_index('description', inplace=True)

@@ -18,7 +18,7 @@ def scrape_all():
         "news_paragraph": news_paragraph,
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
-        "last_modified": dt.datetime.now()
+        "last_modified": dt.datetime.now(),
         "hemisphere_data": hemisphere_scrape(browser)
 
     }
@@ -116,8 +116,8 @@ def hemisphere_scrape(browser) :
         # Scrape the title
         title = img_soup.find('h2', class_='title').text
         # Define and append to the dictionary
-        hemi_dict = {'img_url': img_url,'title': title}
-        hemisphere_image_urls.append(hemi_dict)
+        hemisphere = {'img_url': img_url,'title': title}
+        hemisphere_image_urls.append(hemisphere)
         browser.back()
         # print(hemisphere_image_urls)
     return hemisphere_image_urls
