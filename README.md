@@ -10,12 +10,12 @@ UT McCombs Module 10: Mission to Mars - Web Scraping with HTML/CSS
 6.  html5lib 1.1
 7.  Jupyter Notebook 6.1.4
 8.  MongoDB 4.4.2
-9.  Numpy 1.19.3*
+9.  Numpy 1.19.3***
 10. Pandas 1.1.4
 11. PyMongo 3.11.2
 12. Splinter 0.14.0
 13. webdriver-manager 3.2.2
-* A higher version prevented Flask from running.
+* ***A higher version prevented Flask from running.
 
 # Web Scraping Mars data from NASA using Jupyter Notebook
 BeautifulSoup and Splinter were used to automate a web browser and perform a web scrape.
